@@ -40,9 +40,9 @@ data_away=data['a']
 ##home team data##
 for i in range(len(data_home)):
     for key in data_home[i]:
-        if key=='x':
+        if key=='X':
             x.append(data_home[i][key])
-        if key=='y':
+        if key=='Y':
             y.append(data_home[i][key])
         if key=='xG':
             xg.append(data_home[i][key])
