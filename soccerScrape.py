@@ -27,12 +27,16 @@ json_data=shots_string[index_start:index_end]
 json_data=json_data.encode('utf8').decode('unicode_escape')
 
 data=json.loads(json_data)
+print(data)
 
 ##dataframe creation##
 x=[]
 y=[]
 xg=[]
 team=[]
+player=[]
+shot_type=[]
+situation=[]
 outcome=[]
 data_home=data['h']
 data_away=data['a']
@@ -41,9 +45,15 @@ data_away=data['a']
 for i in range(len(data_home)):
     for key in data_home[i]:
         if key=='X':
-            x.append(data_home[i][key])
+            x.append(str(float(data_home[i][key])*100))
         if key=='Y':
-            y.append(data_home[i][key])
+            y.append(str(float(data_home[i][key])*100))
+        if key=='situation':
+            situation.append(data_home[i][key])
+        if key=='player':
+            player.append(data_home[i][key])
+        if key=='shotType':
+            shot_type.append(data_home[i][key])
         if key=='xG':
             xg.append(data_home[i][key])
         if key=='result':
@@ -55,9 +65,15 @@ for i in range(len(data_home)):
 for i in range(len(data_away)):
     for key in data_away[i]:
         if key=='X':
-            x.append(data_away[i][key])
+            x.append(str(float(data_away[i][key])*100))
         if key=='Y':
-            y.append(data_away[i][key])
+            y.append(str(float(data_away[i][key])*100))
+        if key=='situation':
+            situation.append(data_away[i][key])
+        if key=='player':
+            player.append(data_away[i][key])
+        if key=='shotType':
+            shot_type.append(data_away[i][key])
         if key=='xG':
             xg.append(data_away[i][key])
         if key=='result':
@@ -65,8 +81,9 @@ for i in range(len(data_away)):
         if key=='a_team':
             team.append(data_away[i][key])
 
-col_names=['x','y','Expected Goal Chance','Shot Outcome','Team']
-df=pd.DataFrame([x,y,xg,outcome,team], index=col_names)
+col_names=['y','X','Situation','Player','Shot Type','Expected Goal Chance','Shot Outcome','Team']
+df=pd.DataFrame([x,y,situation,player,shot_type,xg,outcome,team], index=col_names)
 df=df.T
+df.to_csv('rbl_aus_test.csv')
 
 print(df)

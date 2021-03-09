@@ -1,0 +1,21 @@
+,y,x,Situation,Player,Shot Type,Expected Goal Chance,Shot Outcome,Team
+0,80.0999984741211,69.4000015258789,OpenPlay,Dani Olmo,LeftFoot,0.025302283465862274,MissedShots,RasenBallsport Leipzig
+1,80.0999984741211,66.0,DirectFreekick,Christopher Nkunku,RightFoot,0.0872727707028389,SavedShot,RasenBallsport Leipzig
+2,77.5999984741211,40.900001525878906,OpenPlay,Amadou Haidara,RightFoot,0.02689698152244091,MissedShots,RasenBallsport Leipzig
+3,71.0,42.099998474121094,OpenPlay,Amadou Haidara,RightFoot,0.018100328743457794,BlockedShot,RasenBallsport Leipzig
+4,77.5,66.0999984741211,DirectFreekick,Christopher Nkunku,RightFoot,0.0670265406370163,BlockedShot,RasenBallsport Leipzig
+5,75.80000305175781,47.79999923706055,SetPiece,Dani Olmo,RightFoot,0.016871647909283638,MissedShots,RasenBallsport Leipzig
+6,85.0,50.5,OpenPlay,Dani Olmo,RightFoot,0.09425105154514313,SavedShot,RasenBallsport Leipzig
+7,88.5,50.0,Penalty,Dani Olmo,RightFoot,0.75777667760849,Goal,RasenBallsport Leipzig
+8,89.4000015258789,55.50000000000001,OpenPlay,Christopher Nkunku,LeftFoot,0.40745458006858826,Goal,RasenBallsport Leipzig
+9,79.0,30.79999923706055,OpenPlay,Amadou Haidara,RightFoot,0.02398165501654148,BlockedShot,RasenBallsport Leipzig
+10,87.69999694824219,50.0,OpenPlay,Yussuf Poulsen,Head,0.06360617280006409,SavedShot,RasenBallsport Leipzig
+11,90.5999984741211,44.5,FromCorner,Willi Orban,Head,0.020764796063303947,MissedShots,RasenBallsport Leipzig
+12,75.4000015258789,51.79999923706055,OpenPlay,Marcel Sabitzer,LeftFoot,0.031354669481515884,MissedShots,RasenBallsport Leipzig
+13,80.5999984741211,41.79999923706055,OpenPlay,Amadou Haidara,RightFoot,0.02299114689230919,MissedShots,RasenBallsport Leipzig
+14,91.80000305175781,23.600000381469727,OpenPlay,Alexander Sørloth,LeftFoot,0.13434655964374542,SavedShot,RasenBallsport Leipzig
+15,92.30000305175781,51.5,OpenPlay,Christopher Nkunku,RightFoot,0.5378207564353943,ShotOnPost,RasenBallsport Leipzig
+16,88.5,50.0,Penalty,Daniel Caligiuri,RightFoot,0.75777667760849,Goal,Augsburg
+17,87.0999984741211,73.0999984741211,OpenPlay,Ruben Vargas,RightFoot,0.026896171271800995,BlockedShot,Augsburg
+18,85.80000305175781,69.5999984741211,SetPiece,Robert Gumny,RightFoot,0.03186236321926117,SavedShot,Augsburg
+19,93.9000015258789,45.5,FromCorner,André Hahn,Head,0.12185270339250565,BlockedShot,Augsburg
